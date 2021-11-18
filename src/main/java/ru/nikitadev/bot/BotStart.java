@@ -12,8 +12,8 @@ import java.util.ArrayList;
 public class BotStart extends TelegramLongPollingBot {
 
     private long chat_id;
-    private final String BOT_NAME = "bookRecipe1927_bot";
-    private final String BOT_TOKEN = "1706729039:AAHm_-E0V5aV9Wu6coLbcPi9IMywOKoAniM";
+    private final String BOT_NAME = "";
+    private final String BOT_TOKEN = "";
     private final String help = "Актуальные запросы:\n Asterios-x? - информация о последнем убитом боссе. Где ? - рейты сервера(Пример: Asterios-x7)";
     ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
     ArrayList<KeyboardRow> keyboard = new ArrayList<>();
